@@ -19,6 +19,9 @@
   "homepage": "https://github.com/alexnguyen104/web-quan-ao#readme",
   "engines": {
     "node": "17.x",
-    "npm" : "8.1.4"
+    "npm": "8.1.4"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
   }
 }
