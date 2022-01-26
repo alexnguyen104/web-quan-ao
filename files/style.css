@@ -48,3 +48,11 @@ h1{
     background-color: #860714;
     color: #fff;
 }
+.ivymoda_btn{
+    color: #fff;
+    background-color: #000;
+}
+.ivymoda_btn:hover{
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+}
