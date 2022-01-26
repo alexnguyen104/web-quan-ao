@@ -2,18 +2,12 @@
     margin: 0;
     padding: 0;
 }
-.uniqlo_btn{
-    background-color: #ED1D25;
-    color: #fff;
-}
-.uniqlo_btn:hover{
-    background-color: rgb(169, 25, 25);
-    color: #fff;
-}
 .card-img-top{
     width: 286px;
     height: 180px;
     object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 h1{
     text-align: center;
@@ -23,36 +17,13 @@ h1{
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
+    cursor: pointer;    
+
 }
 .row{
     display: flex;
     justify-content: center;
 }
-.ninomaxx_btn{
-    background-color: #000;
-    color: #fff;
-}
-.ninomaxx_btn:hover{
-    background-color: rgb(41, 41, 41);
-    color: #fff;
-}
-.btn{
-    cursor: pointer;
-}
-.hm_btn{
-    background-color: #C10A1D;
-    color: #fff;
-}
-.hm_btn:hover{
-    background-color: #860714;
-    color: #fff;
-}
-.ivymoda_btn{
-    color: #fff;
-    background-color: #000;
-}
-.ivymoda_btn:hover{
-    background-color: rgb(41, 41, 41);
-    color: #fff;
-}
+
+
