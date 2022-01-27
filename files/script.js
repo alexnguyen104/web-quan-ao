@@ -1,5 +1,6 @@
 function gotoweb(a){
-    window.location = "https://www." + a;
+    // window.location = "https://www." + a;
+    window.open('https://www.' + a, '_blank');
 }
 
 function myFunction(){
