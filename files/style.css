@@ -2,18 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
-.uniqlo_btn {
-	background-color: #ed1d25;
-	color: #fff;
-}
-.uniqlo_btn:hover {
-	background-color: rgb(169, 25, 25);
-	color: #fff;
-}
 .card-img-top {
 	width: 286px;
 	height: 180px;
 	object-fit: cover;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 h1 {
 	text-align: center;
@@ -23,28 +17,79 @@ h1 {
 	margin: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border: none;
-	border-radius: 10px;
+	border-radius: 20px;
+	cursor: pointer;
 }
 .row {
 	display: flex;
 	justify-content: center;
 }
-.ninomaxx_btn {
-	background-color: #000;
-	color: #fff;
+.container .input {
+	border: 0;
+	outline: none;
+	color: #8b7d77;
 }
-.ninomaxx_btn:hover {
-	background-color: rgb(41, 41, 41);
-	color: #fff;
+
+.search_wrap {
+	width: 500px;
+	margin: 38px auto;
 }
-.btn {
+
+.search_wrap .search_box {
+	position: relative;
+	width: 500px;
+	height: 60px;
+}
+
+.search_wrap .search_box .input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px;
+	border-radius: 3px;
+	font-size: 18px;
+}
+
+.search_wrap .search_box .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60px;
+	height: 100%;
+	background: #f65c5c;
+	z-index: 1;
 	cursor: pointer;
 }
-.hm_btn {
-	background-color: #c10a1d;
+
+.search_wrap .search_box .btn.btn_common .fas {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	color: #fff;
+	font-size: 20px;
 }
-.hm_btn:hover {
-	background-color: #860714;
-	color: #fff;
+
+.search_box .btn {
+	right: 0;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search_box .input,
+.search_wrap.search_wrap_3 .search_box .input {
+	padding-right: 80px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search_wrap.search_wrap_3 .search_box .input {
+	border-radius: 50px;
+}
+
+.search_wrap.search_wrap_3 .search_box .btn {
+	right: 0px;
+	border-radius: 50%;
 }
